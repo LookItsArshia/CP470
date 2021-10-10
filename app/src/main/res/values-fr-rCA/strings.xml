@@ -9,5 +9,11 @@
     <string name="switchText">Qu\'est-ce que cela fait?</string>
     <string name="RadioButton">Bouton Radio</string>
     <string name="CheckBox">Case a cocher</string>
-
+    <string name="LogInButton">Connexion</string>
+    <string name="SwitchOn">L\'interrupteur est activé</string>
+    <string name="SwitchOff">L\'interrupteur est éteint</string>
+    <string name="dialog_message">Voulez-vous terminer cette activité?</string>
+    <string name="dialog_title">Terminer l\'activité</string>
+    <string name="Yes">Oui</string>
+    <string name="Cancel">Annuler</string>
 </resources>
