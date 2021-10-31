@@ -18,4 +18,9 @@
     <string name="Cancel">Annuler</string>
     <string name="StartChatButton"> Démarrer la discussion </string>
     <string name="sendButton">Envoyer</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="version"> Version 1.0, by Arshia Mathur</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Do you want to go back?</string>
 </resources>

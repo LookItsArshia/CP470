@@ -9,13 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="MainActivity" />
-        <activity android:name=".ChatWindow"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".ListItemsActivity"
-            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".TestToolbar"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/Theme.AndroidAssignments.NoActionBar"></activity>
+
+        <activity
+            android:name=".ChatWindow"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ListItemsActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +29,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="MainActivity" />
     </application>
 
     <uses-feature
